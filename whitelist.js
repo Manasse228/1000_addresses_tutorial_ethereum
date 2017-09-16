@@ -4,7 +4,7 @@ const web3 = new Web3(new Web3.providers.HttpProvider('http://localhost:8549'));
 const abi = require('./abi.json');
 const ADDRESSES = require('./ADDRESSES')();
 const UNLOCKED_ACCOUNT = '0x81472A6Ec17519230d8F1586D00eAe4523052B80';
-const CONTRACT_ADDRESS = '0x4d42B981c9C02708016d8c0c176D1FC8a43cC5bf';
+const CONTRACT_ADDRESS = '0x85Cef92a26A6e68C57A3e0CCf52044c26A55d581';
 
 const Addresses_per_tx = 120;
 const slices = Math.ceil(ADDRESSES.length / Addresses_per_tx);
